@@ -1,0 +1,39 @@
+{
+    "name": "Bogochentas",
+    "slug": "bogochentas",
+    "author": "MIERDINSKY",
+    "imageUrl": "/games/bogochentas/bogochentas-by-mierdinsky.jpeg",
+    "difficulty": "Medium",
+    "characters": [
+        {
+            "name": "E.T the Extra-Terrestrial",
+            "img": "/games/bogochentas/characters/et.jpg",
+            "area": [
+                { "x": 728, "y": 305 },
+                { "x": 796, "y": 300 },
+                { "x": 734, "y": 383 },
+                { "x": 803, "y": 387 }
+            ]
+        },
+        {
+            "name": "RoboCop",
+            "img": "/games/bogochentas/characters/robocop.jpg",
+            "area": [
+                { "x": 5186, "y": 1400 },
+                { "x": 5192, "y": 1527 },
+                { "x": 5267, "y": 1400 },
+                { "x": 5267, "y": 1527 }
+            ]
+        },
+        {
+            "name": "Daraemon",
+            "img": "/games/bogochentas/characters/doraemon.jpg",
+            "area": [
+                { "x": 2192, "y": 314 },
+                { "x": 2185, "y": 400 },
+                { "x": 2256, "y": 314 },
+                { "x": 2272, "y": 400 }
+            ]
+        }
+    ]
+}
