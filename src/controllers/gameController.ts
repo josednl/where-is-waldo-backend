@@ -106,4 +106,9 @@ export const validateArea = async (req: Request, res: Response) => {
       actualCharacter: matchedCharacter.name,
     });
   }
+
+  return res.json({
+    success: false,
+    actualCharacter: null,
+  });
 };
