@@ -6,6 +6,7 @@
     "difficulty": "Medium",
     "characters": [
         {
+            "id": "ch_bart",
             "name": "Bart Simpson",
             "img": "/games/the-simpsons-tree-house-of-horror-4/characters/bart-simpson.jpg",
             "area": [
@@ -16,6 +17,7 @@
             ]
         },
         {
+            "id": "ch_lisa",
             "name": "Lisa Simpson",
             "img": "/games/the-simpsons-tree-house-of-horror-4/characters/lisa-simpson.jpg",
             "area": [
@@ -26,6 +28,7 @@
             ]
         },
         {
+            "id": "ch_abe",
             "name": "Abe Simpson",
             "img": "/games/the-simpsons-tree-house-of-horror-4/characters/abe-simpson.jpg",
             "area": [

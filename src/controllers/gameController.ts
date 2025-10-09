@@ -5,6 +5,7 @@ const prisma = new PrismaClient();
 type Point = { x: number; y: number };
 
 type Character = {
+  id: string;
   name: string;
   area?: Point[];
 };
@@ -70,9 +71,9 @@ function findCharacterAt(
 
 export const validateArea = async (req: Request, res: Response) => {
   const { slug } = req.params;
-  const { characterName, x, y } = req.body;
+  const { characterId, x, y } = req.body;
 
-  if (typeof x !== 'number' || typeof y !== 'number' || typeof characterName !== 'string') {
+  if (typeof x !== 'number' || typeof y !== 'number' || typeof characterId !== 'string') {
     return res.status(400).json({ success: false, message: "Invalid input" });
   }
 
@@ -85,12 +86,13 @@ export const validateArea = async (req: Request, res: Response) => {
   }
 
   const characters = game.characters as {
+    id: string;
     name: string;
     area: { x: number, y: number }[];
     img: string;
   }[];
 
-  const character = characters.find((char) => char.name === characterName);
+  const character = characters.find((char) => char.id === characterId);
 
   if (!character) {
     return res.status(404).json({ success: false, message: "Character not found" });
@@ -99,7 +101,7 @@ export const validateArea = async (req: Request, res: Response) => {
   const matchedCharacter = findCharacterAt(x, y, characters);
 
   if (matchedCharacter) {
-    const success = matchedCharacter.name === characterName;
+    const success = matchedCharacter.id === characterId;
 
     return res.json({
       success,
