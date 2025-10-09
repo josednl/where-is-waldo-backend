@@ -3,10 +3,10 @@
     "slug": "geof-darrow-the-simpsons",
     "author": "The Simpsons Tree House of Horror #4",
     "imageUrl": "/games/the-simpsons-tree-house-of-horror-4/geof-darrow-in-the-simpsons-tree-house-of-horror-4.jpg",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "characters": [
         {
-            "id": "ch_bart",
+            "id": "ch_bart_simpson",
             "name": "Bart Simpson",
             "img": "/games/the-simpsons-tree-house-of-horror-4/characters/bart-simpson.jpg",
             "area": [
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "id": "ch_lisa",
+            "id": "ch_lisa_simpson",
             "name": "Lisa Simpson",
             "img": "/games/the-simpsons-tree-house-of-horror-4/characters/lisa-simpson.jpg",
             "area": [
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "id": "ch_abe",
+            "id": "ch_abe_simpson",
             "name": "Abe Simpson",
             "img": "/games/the-simpsons-tree-house-of-horror-4/characters/abe-simpson.jpg",
             "area": [

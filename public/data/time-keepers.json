@@ -1,0 +1,53 @@
+{
+    "name": "Time Keepers",
+    "slug": "time-keepers",
+    "author": "Alexander Huérfano",
+    "imageUrl": "/games/time-keepers/time-keepers.png",
+    "difficulty": "Medium",
+    "characters": [
+        {
+            "id": "ch_daffy_duck",
+            "name": "Daffy Duck",
+            "img": "/games/time-keepers/characters/daffy-duck.jpg",
+            "area": [
+                { "x": 5980, "y": 3231 },
+                { "x": 6094, "y": 3232 },
+                { "x": 6024, "y": 3477 },
+                { "x": 6133, "y": 3473 }
+            ]
+        },
+        {
+            "id": "ch_gingerbread_man",
+            "name": "Gingerbread-Man",
+            "img": "/games/time-keepers/characters/gingerbread-man.jpg",
+            "area": [
+                { "x": 2135, "y": 2681 },
+                { "x": 2240, "y": 2690 },
+                { "x": 2148, "y": 2825 },
+                { "x": 2235, "y": 2839 }
+            ]
+        },
+        {
+            "id": "ch_princess_peach",
+            "name": "Princess Peach",
+            "img": "/games/time-keepers/characters/princess-peach.jpg",
+            "area": [
+                { "x": 555, "y": 1208 },
+                { "x": 686, "y": 1189 },
+                { "x": 568, "y": 1412 },
+                { "x": 686, "y": 1415 }
+            ]
+        },
+        {
+            "id": "ch_snoopy",
+            "name": "Snoopy",
+            "img": "/games/time-keepers/characters/snoopy.jpg",
+            "area": [
+                { "x": 8028, "y": 566 },
+                { "x": 8150, "y": 565 },
+                { "x": 8032, "y": 682 },
+                { "x": 8155, "y": 682 }
+            ]
+        }
+    ]
+}

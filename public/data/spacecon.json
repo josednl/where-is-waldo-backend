@@ -1,0 +1,53 @@
+{
+    "name": "S.P.A.C.E.CON:2225",
+    "slug": "space-con-2225",
+    "author": "",
+    "imageUrl": "/games/spacecon-2225/space-con-2225.jpeg",
+    "difficulty": "Medium",
+    "characters": [
+        {
+            "id": "ch_serpo_alien",
+            "name": "Serpo Alien",
+            "img": "/games/spacecon-2225/characters/serpo-alien.jpg",
+            "area": [
+                { "x": 746, "y": 628 },
+                { "x": 799, "y": 622 },
+                { "x": 747, "y": 728 },
+                { "x": 797, "y": 728 }
+            ]
+        },
+        {
+            "id": "ch_jack_skellington",
+            "name": "Jack Skellington",
+            "img": "/games/spacecon-2225/characters/jack-skellington.jpg",
+            "area": [
+                { "x": 142, "y": 1862 },
+                { "x": 189, "y": 1864 },
+                { "x": 140, "y": 2001 },
+                { "x": 194, "y": 2084 }
+            ]
+        },
+        {
+            "id": "ch_mr_cupcake",
+            "name": "Mr. Cupcake",
+            "img": "/games/spacecon-2225/characters/mr-cupcake.jpg",
+            "area": [
+                { "x": 894, "y": 1953 },
+                { "x": 924, "y": 1950 },
+                { "x": 897, "y": 1986 },
+                { "x": 926, "y": 1989 }
+            ]
+        },
+        {
+            "id": "ch_daffy_duck",
+            "name": "Daffy Duck",
+            "img": "/games/spacecon-2225/characters/daffy-duck.jpg",
+            "area": [
+                { "x": 1124, "y": 2191 },
+                { "x": 1180, "y": 2197 },
+                { "x": 1134, "y": 2330 },
+                { "x": 1180, "y": 2321 }
+            ]
+        }
+    ]
+}
