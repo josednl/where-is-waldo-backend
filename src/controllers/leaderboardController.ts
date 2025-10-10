@@ -28,7 +28,11 @@ export const submitScore = async (req: Request, res: Response) => {
     })
 
     res.status(201).json({ message: 'Score submitted', entry });
-  } catch (error) {
+  } catch (error: any) {
+    if (error.code === 'P2002') {
+      return res.status(409).json({ error: 'Player name already exists in this leaderboard.' });
+    }
+
     console.error("Error saving score:", error);
     res.status(500).json({ error: "Failed to save score." });
   }
@@ -48,6 +52,7 @@ export const getAllLeaderboards = async (req: Request, res: Response) => {
     const formatted = gamesWithLeaderboards.map((game) => ({
       gameId: game.id,
       gameName: game.name,
+      gameSlug: game.slug,
       difficulty: game.difficulty,
       leaderboards: game.leaderboards.map((entry) => ({
         playerName: entry.playerName,

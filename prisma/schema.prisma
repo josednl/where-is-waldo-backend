@@ -20,9 +20,11 @@ model Game {
 
 model LeaderboardEntry {
   id         String   @id @default(uuid())
-  playerName String   @unique
+  playerName String
   time       Int
   game       Game     @relation(fields: [gameId], references: [id])
   gameId     String
   createdAt  DateTime @default(now())
+
+  @@unique([gameId, playerName])
 }
