@@ -1,0 +1,75 @@
+{
+    "name": "The Insurrection Maze",
+    "slug": "the-insurrection-maze",
+    "author": "Brian Michael Weaver",
+    "imageUrl": "/games/the-insurrection-maze/the-insurrection-maze.jpg",
+    "difficulty": "Medium",
+    "characters": [
+        {
+            "id": "ch_cnn_reporter",
+            "name": "CNN Reporter",
+            "img": "/games/the-insurrection-maze/characters/cnn-reporter.jpg",
+            "area": [
+                { "x": 199, "y": 1308 },
+                { "x": 319, "y": 1303 },
+                { "x": 240, "y": 1539 },
+                { "x": 352, "y": 1547 }
+            ]
+        },
+        {
+            "id": "ch_pioneer",
+            "name": "Pioneer",
+            "img": "/games/the-insurrection-maze/characters/pioneer.jpg",
+            "area": [
+                { "x": 2479, "y": 205 },
+                { "x": 2599, "y": 225 },
+                { "x": 2483, "y": 419 },
+                { "x": 2577, "y": 425 }
+            ]
+        },
+        {
+            "id": "ch_swat",
+            "name": "SWAT",
+            "img": "/games/the-insurrection-maze/characters/swat.jpg",
+            "area": [
+                { "x": 300, "y": 18 },
+                { "x": 381, "y": 18 },
+                { "x": 298, "y": 111 },
+                { "x": 377, "y": 124 }
+            ]
+        },
+        {
+            "id": "ch_pals",
+            "name": "Pals",
+            "img": "/games/the-insurrection-maze/characters/pals.jpg",
+            "area": [
+                { "x": 1195, "y": 2582 },
+                { "x": 1322, "y": 2575 },
+                { "x": 1202, "y": 2678 },
+                { "x": 1330, "y": 2681 }
+            ]
+        },
+        {
+            "id": "ch_suicidal_man",
+            "name": "Suicidal Man",
+            "img": "/games/the-insurrection-maze/characters/suicidal-man.jpg",
+            "area": [
+                { "x": 2875, "y": 2483 },
+                { "x": 2948, "y": 2479 },
+                { "x": 2898, "y": 2546 },
+                { "x": 2976, "y": 2543 }
+            ]
+        },
+        {
+            "id": "ch_radical",
+            "name": "Radical",
+            "img": "/games/the-insurrection-maze/characters/radical.jpg",
+            "area": [
+                { "x": 1555, "y": 588 },
+                { "x": 1652, "y": 583 },
+                { "x": 1581, "y": 807 },
+                { "x": 1682, "y": 818 }
+            ]
+        }
+    ]
+}

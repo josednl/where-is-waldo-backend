@@ -37,6 +37,17 @@
                 { "x": 2256, "y": 314 },
                 { "x": 2272, "y": 400 }
             ]
+        },
+        {
+            "id": "ch_quaker",
+            "name": "Quaker",
+            "img": "/games/bogochentas/characters/quaker.jpg",
+            "area": [
+                { "x": 3999, "y": 2667 },
+                { "x": 4132, "y": 2656 },
+                { "x": 4002, "y": 2842 },
+                { "x": 4129, "y": 2839 }
+            ]
         }
     ]
 }

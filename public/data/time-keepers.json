@@ -48,6 +48,17 @@
                 { "x": 8032, "y": 682 },
                 { "x": 8155, "y": 682 }
             ]
+        },
+        {
+            "id": "ch_mini_mario",
+            "name": "Mini Mario",
+            "img": "/games/time-keepers/characters/mini-mario.jpg",
+            "area": [
+                { "x": 7949, "y": 2502 },
+                { "x": 7997, "y": 2497 },
+                { "x": 7945, "y": 2550 },
+                { "x": 8002, "y": 2559 }
+            ]
         }
     ]
 }

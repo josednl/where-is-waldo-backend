@@ -37,6 +37,17 @@
                 { "x": 331, "y": 489 },
                 { "x": 293, "y": 555 }
             ]
+        },
+        {
+            "id": "ch_dolph_starbeam",
+            "name": "Dolph Starbeam",
+            "img": "/games/the-simpsons-tree-house-of-horror-4/characters/dolph-starbeam.jpg",
+            "area": [
+                { "x": 1378, "y": 19 },
+                { "x": 1404, "y": 17 },
+                { "x": 1379, "y": 57 },
+                { "x": 1403, "y": 60 }
+            ]
         }
     ]
 }
