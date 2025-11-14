@@ -16,7 +16,7 @@
     "seed": "npx ts-node-dev src/db/seed.ts",
     "format": "prettier --write \"src/**/*.{ts,js,json,css}\"",
     "format:check": "prettier --check \"src/**/*.{ts,js,json,css}\"",
-    "postinstall": "prisma generate && prisma migrate deploy && npm run seed"
+    "deploy": "prisma generate && prisma migrate deploy && npm run seed"
   },
   "keywords": [],
   "author": "",
